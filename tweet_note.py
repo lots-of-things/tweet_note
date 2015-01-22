@@ -35,7 +35,7 @@ def get_all_tweets(screen_name):
      outtweets = sorted(outtweets, key=lambda tweet: tweet[0])     
      #write the csv	
 #     print outtweets
-     table_string="<!DOCTYPE html>\n<html>\n<head>\n<link rel=\"stylesheet\" type=\"text/css\" href=\"styles.css\">\n</head>\n<body>\n<h1>will_note: <span style=\"font-size:0.5em\">a twitter notebook</span></h1><table>\n"
+     table_string="<!DOCTYPE html>\n<html>\n<head>\n<link rel=\"stylesheet\" type=\"text/css\" href=\"styles.css\">\n</head>\n<body>\n<h1>tweet_note: <span style=\"font-size:0.5em\">a twitter timestamp notebook</span></h1><table>\n"
      for row in outtweets:
          table_string += "<tr>" + \
          "<td class=\"date\">" + \
