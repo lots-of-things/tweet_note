@@ -10,7 +10,7 @@ Mine are in a config file that I'm not sharing with you.
 
 After those are set up, you run 
 
-  python tweet_note.py
+    python tweet_note.py
 
 and it currently pulls in the last day's tweets and puts them on the local html document called notebook.html
 
